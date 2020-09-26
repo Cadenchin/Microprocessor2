@@ -25,7 +25,7 @@ void loop() {
             // if the switch is HIGH, ie. pushed down - change the lights!
             button = true;
             changeLights();
-            delay(15);
+            delay(15);1234
         }
     }
   else if (digitalRead(button) == LOW && onbutton == false)
