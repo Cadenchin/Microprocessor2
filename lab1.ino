@@ -24,7 +24,7 @@ void loop() {
         delay(15); // software debounce
         if (digitalRead(button) == HIGH || onbutton == true) {
             // if the switch is HIGH, ie. pushed down - change the lights!
-            button = true;
+            onbutton = true;
             changeLights();
             delay(15);
         }
