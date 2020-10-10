@@ -1,3 +1,8 @@
+// Lab Member
+// Dean Baker
+// Caden Chin
+// KwunYin Low
+
 int button = 4;
 int red = 12;
 int yellow = 11;
@@ -41,21 +46,21 @@ void loop() {
  }
 
 void changeLights(){
-    // turn off yellow, then turn red on for 6 seconds
+    // turn off yellow, then turn red on for 15 seconds
     digitalWrite(green, LOW);
     digitalWrite(yellow, LOW);
     digitalWrite(red, HIGH);
     delay(12000);
     beeping();
     
-    // green off, yellow on for 2 seconds
+    // red off, green on for 15 seconds
     digitalWrite(green, HIGH);
     digitalWrite(yellow, LOW);
     digitalWrite(red, LOW);
     delay(12000);
     beeping();
     
-    // red and yellow on for 2 seconds (red is already on though)
+    // yellow on for 3 seconds
     digitalWrite(green, LOW);
     digitalWrite(yellow, HIGH);
     digitalWrite(red, LOW);
