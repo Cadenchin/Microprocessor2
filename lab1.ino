@@ -1,3 +1,9 @@
+//Lab Member
+//Dean Baker
+//Caden Chin
+//KwunYin Low
+
+
 //pin assignment
 int button = 4;
 int red = 12;
